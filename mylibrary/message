@@ -1,0 +1,5 @@
+ //BINTRAY_USERNAME ：你的bintray帐号名字
+   //BINTRAY_KEY : 你的bintray帐号对应的Key
+   //上面两个，我会上图介绍
+   roycly     bb2956019a1f84225736565ed700f5a3a8d890e8
+   gradlew clean build bintrayUpload -PbintrayUser=roycly -PbintrayKey=bb2956019a1f84225736565ed700f5a3a8d890e8 -PdryRun=false
